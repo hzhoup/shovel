@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint": "shovel-cli lint"
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue,md}": "prettier --write",
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
+    "@shovel/cli": "workspace:*",
     "@shovel/eslint-config": "workspace:*",
     "@types/node": "^18.11.11",
     "commitizen": "^4.2.6",
