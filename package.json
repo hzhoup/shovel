@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
+    "bootstrap": "pnpm install",
     "prepare": "husky install",
     "lint": "shovel-cli lint",
     "changelog": "shovel-cli changelog"
