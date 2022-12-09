@@ -11,14 +11,22 @@
     "dev": "tsc --watch",
     "build": "tsc"
   },
-  "files": ["lib", "tsconfig.json"],
+  "files": [
+    "lib",
+    "tsconfig.json"
+  ],
   "author": "hzp",
   "license": "MIT",
-  "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
+  "dependencies": {
+    "chalk": "^5.2.0",
     "commander": "^9.4.1",
+    "conventional-changelog": "^3.1.25",
     "execa": "^6.1.0",
     "fs-extra": "^11.1.0",
     "ora": "^6.1.2"
+  },
+  "devDependencies": {
+    "@types/conventional-changelog": "^3.1.1",
+    "@types/fs-extra": "^9.0.13"
   }
 }

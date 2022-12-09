@@ -4,7 +4,8 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
-    "lint": "shovel-cli lint"
+    "lint": "shovel-cli lint",
+    "changelog": "shovel-cli changelog"
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue,md}": "prettier --write",

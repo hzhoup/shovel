@@ -1,6 +1,6 @@
 import ora from 'ora'
 import { execa } from 'execa'
-import { ESLINT_EXTENSIONS } from '../commom/constant.js'
+import { ESLINT_EXTENSIONS } from '../common/constant.js'
 import * as process from 'process'
 export const lint = async () => {
   let notes
